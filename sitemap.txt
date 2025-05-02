@@ -1,10 +1,10 @@
 
-http://localhost:4000/cv/
-http://localhost:4000/feed.xml
-http://localhost:4000/
-http://localhost:4000/css/main.css
-http://localhost:4000/news/
-http://localhost:4000/sitemap.txt
-http://localhost:4000/skills/
-http://localhost:4000/css/main.css.map
+http://ekanshs.github.io/cv/
+http://ekanshs.github.io/feed.xml
+http://ekanshs.github.io/
+http://ekanshs.github.io/css/main.css
+http://ekanshs.github.io/news/
+http://ekanshs.github.io/sitemap.txt
+http://ekanshs.github.io/skills/
+http://ekanshs.github.io/css/main.css.map
 
