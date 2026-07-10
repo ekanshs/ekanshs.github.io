@@ -668,12 +668,22 @@ ul.listing li.listing-item a {
   margin-bottom: 0.75em;
 }
 
+/* Keep publication text in a column beside the thumbnail (don't wrap under it). */
+.alignleft + p,
+.alignright + p {
+  overflow: hidden;
+}
+
 @media screen and (max-width: 32em) {
   .alignleft, .alignright {
     display: block;
     margin-left: auto;
     margin-right: auto;
     float: none;
+  }
+  .alignleft + p,
+  .alignright + p {
+    overflow: visible;
   }
 }
 
