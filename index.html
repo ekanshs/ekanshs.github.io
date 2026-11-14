@@ -1,199 +1,872 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <title>Ekansh Sharma — Machine Learning Engineer</title>
+  <meta name="description" content="Ekansh Sharma — Machine Learning Engineer at Google (YouTube Shorts) and Ph.D. in Computer Science from the University of Toronto. Research on sequential user modeling, optimization geometry, sparse training, and statistical inference.">
+  <meta name="author" content="Ekansh Sharma">
+  <link rel="canonical" href="https://ekansharma.org/">
+  <link rel="alternate" type="application/rss+xml" title="Ekansh Sharma" href="/feed.xml">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23b6321c'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Calibri,Carlito,sans-serif' font-weight='700' font-size='30' fill='%23ffffff'%3EES%3C/text%3E%3C/svg%3E">
 
-    <title>Ekansh Sharma</title>
-    <meta name="description" content="© Ekansh Sharma 2025">
+  <!-- Open Graph & Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ekansh Sharma — Machine Learning Engineer">
+  <meta property="og:description" content="Ekansh Sharma — Machine Learning Engineer at Google (YouTube Shorts) and Ph.D. in Computer Science from the University of Toronto. Research on sequential user modeling, optimization geometry, sparse training, and statistical inference.">
+  <meta property="og:url" content="https://ekansharma.org/">
+  <meta property="og:site_name" content="Ekansh Sharma">
+  <meta property="og:image" content="https://ekansharma.org/assets/images/ekansh.jpg">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Ekansh Sharma — Machine Learning Engineer">
+  <meta name="twitter:description" content="Ekansh Sharma — Machine Learning Engineer at Google (YouTube Shorts) and Ph.D. in Computer Science from the University of Toronto. Research on sequential user modeling, optimization geometry, sparse training, and statistical inference.">
+  <meta name="twitter:image" content="https://ekansharma.org/assets/images/ekansh.jpg">
 
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://ekanshs.github.io/">
-    <link rel="alternate" type="application/rss+xml" title="Ekansh Sharma" href="http://ekanshs.github.io/feed.xml" />
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('ekanshs-theme');
+        document.documentElement.dataset.theme = (stored === 'dark' || stored === 'light') ? stored : 'light';
+      } catch (e) {
+        document.documentElement.dataset.theme = 'light';
+      }
+    })();
+  </script>
 
-    <link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
-
   <body>
-  <div class="page">
-    <header class="site-header">
-    <a class="site-title" href="/">Ekansh Sharma</a>
-    <nav class="site-nav">
-        <a href="#" class="menu-icon menu.open">
-            <svg viewBox="0 0 18 15">
-                <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-                <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-                <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-            </svg>
-        </a>
-        <div class="trigger"><h1>Main Navigation</h1>
-            <ul class="menu">
-    
-    
-     <li><a href="/" class="page-link">About</a>
-    
-    </li>
-    
-    
-     <li><a href="/news/" class="page-link">News</a>
-    
-    </li>
-    
-    
-     <li><a href="/skills/" class="page-link">Skills</a>
-    
-    </li>
-    
-    
-     <li><a href="/cv/" class="page-link">CV</a>
-    
-    </li>
-    
-</ul>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <div class="site-shell">
+      <header class="site-header">
+  <div class="container header-inner">
+    <a class="site-brand" href="/">
+      <span class="brand-name">Ekansh Sharma</span>
+    </a>
 
-        </div>
-    </nav>
+    <div class="header-right">
+      <nav class="site-nav" aria-label="Primary navigation">
+        
+          
+          
+          
+          
+          <a class="nav-link is-active"
+             href="/"
+             aria-current="page">About</a>
+        
+          
+          
+          
+          
+          <a class="nav-link"
+             href="/experience/"
+             >Experience</a>
+        
+          
+          
+          
+          
+          <a class="nav-link"
+             href="/news/"
+             >News</a>
+        
+          
+          
+          
+          
+          <a class="nav-link"
+             href="/cv/"
+             >CV</a>
+        
+      </nav>
+
+      <button type="button" id="theme-toggle" class="icon-btn" aria-label="Toggle color theme" title="Toggle light/dark theme">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+        </svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+
+      <button type="button" id="nav-toggle" class="icon-btn nav-toggle-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+        <svg class="icon-menu" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+        <svg class="icon-close" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation" hidden>
+    <div class="container mobile-nav-inner">
+      
+        
+        
+        
+        
+        <a class="mobile-nav-link is-active"
+           href="/"
+           aria-current="page">About</a>
+      
+        
+        
+        
+        
+        <a class="mobile-nav-link"
+           href="/experience/"
+           >Experience</a>
+      
+        
+        
+        
+        
+        <a class="mobile-nav-link"
+           href="/news/"
+           >News</a>
+      
+        
+        
+        
+        
+        <a class="mobile-nav-link"
+           href="/cv/"
+           >CV</a>
+      
+    </div>
+  </nav>
 </header>
 
+      <main id="main-content" class="site-main">
+        <div class="container">
+  <section class="hero" aria-labelledby="hero-name">
+    <div class="hero-content">
+      <div class="hero-eyebrow">Machine Learning Engineer · Google (YouTube Shorts)</div>
+      <h1 id="hero-name" class="hero-title">Ekansh Sharma</h1>
+      <p class="hero-role">Ph.D. in Computer Science, University of Toronto</p>
 
-    <div class="post">
-    <header class="post-header">
-        <h1></h1>
-    </header>
+      <div class="hero-bio">
+        <p>
+          I am a Machine Learning Engineer at Google working on large-scale recommender systems for YouTube Shorts.
+          I completed my Ph.D. in the <a href="https://web.cs.toronto.edu/">Department of Computer Science</a>
+          at the <a href="https://www.utoronto.ca/">University of Toronto</a>, where I was advised by
+          <a href="http://danroy.org/">Daniel M. Roy</a> and affiliated with the
+          <a href="https://vectorinstitute.ai/">Vector Institute</a>.
+          I also hold an M.Sc. in Computer Science and a B.A.Sc. with Honors in Electrical Engineering from the University of Toronto.
+        </p>
+        <p>
+          My work spans machine learning methodology, optimization geometry, and statistical inference.
+          At Google, I build LLM-adapted generative sequential user models, long-context compression bottlenecks,
+          low-precision (<code>FP8</code>/<code>INT4</code>) quantization-aware training pipelines, and scaling-law methodology in JAX/XLA.
+          During my Ph.D., I investigated the geometry of neural network loss landscapes—studying linear mode connectivity modulo permutation symmetries,
+          non-local model merging, and sparse optimization dynamics—to design parsimonious, compute-conscious learning algorithms.
+        </p>
+        <p>
+          Earlier in my research, I studied probabilistic programming, Bayesian nonparametrics, and heavy-tailed random graph estimation,
+          and spent a term as an Applied Scientist Intern on Sponsored Display Ads at Amazon.
+        </p>
+      </div>
 
-    <h1 id="about">About</h1>
-<div class="captioned-img alignright">
-    <a href="images/ekansh.jpg">
+      <div class="hero-actions">
+        <div class="email-group">
+          <button type="button" class="action-pill-link" data-email-compose aria-label="Send email to Ekansh Sharma">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+            </svg>
+            <span class="obf-email" aria-hidden="true">moc -tod- liamg -ta- hsnake.amrahs</span>
+          </button>
+          <button type="button" class="copy-email-btn" data-email-copy aria-label="Copy email address">Copy</button>
+        </div>
+
+        <a class="action-pill" href="https://scholar.google.com/citations?user=YLf2td8AAAAJ">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+            <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+          </svg>
+          <span>Google Scholar</span>
+        </a>
+
+        <a class="action-pill" href="https://github.com/ekanshs">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+            <path d="M9 18c-4.51 2-5-2-7-2"></path>
+          </svg>
+          <span>GitHub</span>
+        </a>
+
+        <a class="action-pill action-pill--primary" href="/cv/cv.pdf">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+          </svg>
+          <span>CV (PDF)</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-portrait-wrap">
+      <img class="hero-portrait" src="/assets/images/ekansh.jpg" alt="Portrait of Ekansh Sharma" width="216" height="216">
+      <div class="hero-location">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+          <circle cx="12" cy="10" r="3"></circle>
+        </svg>
+        <span>Mountain View, CA</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="interests-strip" aria-label="Research interests">
+    <span class="interests-label">Focus</span>
+    <span class="interest-pill">Large-Scale Sequential &amp; Recommender Modeling</span>
+    <span class="interest-pill">Loss-Landscape Geometry &amp; Model Merging</span>
+    <span class="interest-pill">Sparse &amp; Low-Precision Optimization</span>
+    <span class="interest-pill">Statistical &amp; Causal Inference</span>
+  </div>
+
+  <section class="section-block" id="publications" aria-labelledby="pubs-heading">
+    <div class="section-header">
+      <h2 id="pubs-heading">Publications &amp; Preprints</h2>
+      <div class="filter-bar" role="group" aria-label="Filter publications by category">
+        <button type="button" class="filter-btn is-active" data-filter="all" aria-pressed="true">All (8)</button>
+        <button type="button" class="filter-btn" data-filter="published" aria-pressed="false">Conference &amp; Journal</button>
+        <button type="button" class="filter-btn" data-filter="preprint" aria-pressed="false">Preprints</button>
+      </div>
+    </div>
+
+    <div class="pub-list">
+      
+        
+
+<article class="pub-card" data-category="preprint" id="tokenminds-2026">
+  
+  <a class="pub-thumb" href="https://arxiv.org/abs/2606.25147" tabindex="-1" aria-hidden="true">
+    <img src="/assets/images/tokenminds.png" alt="Figure for TokenMinds: Pretrained User Tokens and Embeddings for User Understanding in Large Recommender Systems" loading="lazy">
+  </a>
+  
+
+  <div class="pub-body">
+    <div class="pub-badges">
+      <span class="venue-badge venue-badge--preprint">Preprint 2026</span>
+      
+      
+        
+        <span class="topic-tag">Sequential User Modeling</span>
+        
+        <span class="topic-tag">Recommender Systems</span>
+        
+      
+    </div>
+
+    <h3 class="pub-title">
+      <a href="https://arxiv.org/abs/2606.25147">TokenMinds: Pretrained User Tokens and Embeddings for User Understanding in Large Recommender Systems</a>
+    </h3>
+
+    <p class="pub-authors">
+      Qingyun Liu, Bo Yan, Yang Liu, Yuji Roh, <strong class="self-author">Ekansh Sharma</strong>, Likang Yin, Emma Olowo, Yuxuan Li, Yuan Jiang, Diego Uribe, Saksham Aggarwal, Siqi Wu, Yuan Hao, Vikas Kedigehalli, Min-Hsuan Tsai, Lukasz Heldt, Lichan Hong, Li Wei, Xinyang Yi
+    </p>
+
+    <p class="pub-venue">
+      Preprint arXiv:2606.25147 · 2026
+    </p>
+
+    <div class="pub-actions">
+      
+      <a class="btn-chip" href="https://arxiv.org/abs/2606.25147">arXiv</a>
+      
+      <a class="btn-chip" href="https://arxiv.org/pdf/2606.25147">PDF</a>
+      
+      
+      <button type="button" class="btn-chip btn-bibtex-toggle" aria-expanded="false" aria-controls="bib-tokenminds-2026">BibTeX</button>
+      
+    </div>
+
     
-    <img src="images/ekansh.jpg" width="300px" />
-    </a>
+    <div class="bibtex-drawer" id="bib-tokenminds-2026" hidden>
+      <div class="bibtex-header">
+        <span>BibTeX Citation</span>
+        <button type="button" class="btn-copy-bib" data-bib-target="bib-code-tokenminds-2026">Copy</button>
+      </div>
+      <pre><code id="bib-code-tokenminds-2026">@article{liu2026tokenminds,
+  title={TokenMinds: Pretrained User Tokens and Embeddings for User Understanding in Large Recommender Systems},
+  author={Liu, Qingyun and Yan, Bo and Liu, Yang and Roh, Yuji and Sharma, Ekansh and Yin, Likang and Olowo, Emma and Li, Yuxuan and Jiang, Yuan and Uribe, Diego and Aggarwal, Saksham and Wu, Siqi and Hao, Yuan and Kedigehalli, Vikas and Tsai, Min-Hsuan and Heldt, Lukasz and Hong, Lichan and Wei, Li and Yi, Xinyang},
+  journal={arXiv preprint arXiv:2606.25147},
+  year={2026}
+}</code></pre>
+    </div>
+    
+  </div>
+</article>
+
+      
+        
+
+<article class="pub-card" data-category="conference" id="sparseopt-2026">
+  
+  <a class="pub-thumb" href="https://arxiv.org/abs/2605.27541" tabindex="-1" aria-hidden="true">
+    <img src="/assets/images/sparseopt.png" alt="Figure for SparseOpt: Addressing Normalization-induced Gradient Skew in Sparse Training" loading="lazy">
+  </a>
+  
+
+  <div class="pub-body">
+    <div class="pub-badges">
+      <span class="venue-badge venue-badge--conference">ICML 2026</span>
+      
+      
+        
+        <span class="topic-tag">Sparse Training</span>
+        
+        <span class="topic-tag">Optimization</span>
+        
+      
+    </div>
+
+    <h3 class="pub-title">
+      <a href="https://arxiv.org/abs/2605.27541">SparseOpt: Addressing Normalization-induced Gradient Skew in Sparse Training</a>
+    </h3>
+
+    <p class="pub-authors">
+      Mohammed Adnan, Rohan Jain, Tom Jacobs, <strong class="self-author">Ekansh Sharma</strong>, Rahul G. Krishnan, Rebekka Burkholz, Yani Ioannou
+    </p>
+
+    <p class="pub-venue">
+      International Conference on Machine Learning (ICML) · 2026
+    </p>
+
+    <div class="pub-actions">
+      
+      <a class="btn-chip" href="https://arxiv.org/abs/2605.27541">arXiv</a>
+      
+      <a class="btn-chip" href="https://arxiv.org/pdf/2605.27541">PDF</a>
+      
+      
+      <button type="button" class="btn-chip btn-bibtex-toggle" aria-expanded="false" aria-controls="bib-sparseopt-2026">BibTeX</button>
+      
+    </div>
+
+    
+    <div class="bibtex-drawer" id="bib-sparseopt-2026" hidden>
+      <div class="bibtex-header">
+        <span>BibTeX Citation</span>
+        <button type="button" class="btn-copy-bib" data-bib-target="bib-code-sparseopt-2026">Copy</button>
+      </div>
+      <pre><code id="bib-code-sparseopt-2026">@inproceedings{adnan2026sparseopt,
+  title={SparseOpt: Addressing Normalization-induced Gradient Skew in Sparse Training},
+  author={Adnan, Mohammed and Jain, Rohan and Jacobs, Tom and Sharma, Ekansh and Krishnan, Rahul G. and Burkholz, Rebekka and Ioannou, Yani},
+  booktitle={Proceedings of the International Conference on Machine Learning (ICML)},
+  year={2026},
+  eprint={2605.27541},
+  archivePrefix={arXiv}
+}</code></pre>
+    </div>
+    
+  </div>
+</article>
+
+      
+        
+
+<article class="pub-card" data-category="conference" id="sparse-init-2025">
+  
+  <a class="pub-thumb" href="https://arxiv.org/abs/2505.05143" tabindex="-1" aria-hidden="true">
+    <img src="/assets/images/sparse-resuse.jpg" alt="Figure for Sparse Training from Random Initialization: Aligning Lottery Ticket Masks using Weight Symmetry" loading="lazy">
+  </a>
+  
+
+  <div class="pub-body">
+    <div class="pub-badges">
+      <span class="venue-badge venue-badge--conference">ICML 2025</span>
+      
+      
+        
+        <span class="topic-tag">Sparse Training</span>
+        
+        <span class="topic-tag">Weight Symmetry</span>
+        
+      
+    </div>
+
+    <h3 class="pub-title">
+      <a href="https://arxiv.org/abs/2505.05143">Sparse Training from Random Initialization: Aligning Lottery Ticket Masks using Weight Symmetry</a>
+    </h3>
+
+    <p class="pub-authors">
+      Mohammed Adnan, Rohan Jain, <strong class="self-author">Ekansh Sharma</strong>, Rahul G. Krishnan, Yani Ioannou
+    </p>
+
+    <p class="pub-venue">
+      International Conference on Machine Learning (ICML) · 2025
+    </p>
+
+    <div class="pub-actions">
+      
+      <a class="btn-chip" href="https://arxiv.org/abs/2505.05143">arXiv</a>
+      
+      <a class="btn-chip" href="https://arxiv.org/pdf/2505.05143">PDF</a>
+      
+      <a class="btn-chip" href="https://openreview.net/forum?id=xLiQjuoUyl#discussion">OpenReview</a>
+      
+      
+      <button type="button" class="btn-chip btn-bibtex-toggle" aria-expanded="false" aria-controls="bib-sparse-init-2025">BibTeX</button>
+      
+    </div>
+
+    
+    <div class="bibtex-drawer" id="bib-sparse-init-2025" hidden>
+      <div class="bibtex-header">
+        <span>BibTeX Citation</span>
+        <button type="button" class="btn-copy-bib" data-bib-target="bib-code-sparse-init-2025">Copy</button>
+      </div>
+      <pre><code id="bib-code-sparse-init-2025">@inproceedings{adnan2025sparse,
+  title={Sparse Training from Random Initialization: Aligning Lottery Ticket Masks using Weight Symmetry},
+  author={Adnan, Mohammed and Jain, Rohan and Sharma, Ekansh and Krishnan, Rahul G. and Ioannou, Yani},
+  booktitle={Proceedings of the International Conference on Machine Learning (ICML)},
+  year={2025},
+  eprint={2505.05143},
+  archivePrefix={arXiv}
+}</code></pre>
+    </div>
+    
+  </div>
+</article>
+
+      
+        
+
+<article class="pub-card" data-category="preprint" id="nonlocal-merging-2024">
+  
+  <a class="pub-thumb" href="https://arxiv.org/abs/2410.12766" tabindex="-1" aria-hidden="true">
+    <img src="/assets/images/nlocal.jpg" alt="Figure for The Non-Local Model Merging Problem: Permutation Symmetries and Variance Collapse" loading="lazy">
+  </a>
+  
+
+  <div class="pub-body">
+    <div class="pub-badges">
+      <span class="venue-badge venue-badge--preprint">Preprint 2024</span>
+      
+      
+        
+        <span class="topic-tag">Model Merging</span>
+        
+        <span class="topic-tag">Loss Landscape</span>
+        
+      
+    </div>
+
+    <h3 class="pub-title">
+      <a href="https://arxiv.org/abs/2410.12766">The Non-Local Model Merging Problem: Permutation Symmetries and Variance Collapse</a>
+    </h3>
+
+    <p class="pub-authors">
+      <strong class="self-author">Ekansh Sharma</strong>, Daniel M. Roy, Gintare Karolina Dziugaite
+    </p>
+
+    <p class="pub-venue">
+      Preprint arXiv:2410.12766 · 2024
+    </p>
+
+    <div class="pub-actions">
+      
+      <a class="btn-chip" href="https://arxiv.org/abs/2410.12766">arXiv</a>
+      
+      <a class="btn-chip" href="https://arxiv.org/pdf/2410.12766">PDF</a>
+      
+      <a class="btn-chip" href="https://github.com/ekanshs/tact-merge">Code</a>
+      
+      
+      <button type="button" class="btn-chip btn-bibtex-toggle" aria-expanded="false" aria-controls="bib-nonlocal-merging-2024">BibTeX</button>
+      
+    </div>
+
+    
+    <div class="bibtex-drawer" id="bib-nonlocal-merging-2024" hidden>
+      <div class="bibtex-header">
+        <span>BibTeX Citation</span>
+        <button type="button" class="btn-copy-bib" data-bib-target="bib-code-nonlocal-merging-2024">Copy</button>
+      </div>
+      <pre><code id="bib-code-nonlocal-merging-2024">@article{sharma2024nonlocal,
+  title={The Non-Local Model Merging Problem: Permutation Symmetries and Variance Collapse},
+  author={Sharma, Ekansh and Roy, Daniel M. and Dziugaite, Gintare Karolina},
+  journal={arXiv preprint arXiv:2410.12766},
+  year={2024}
+}</code></pre>
+    </div>
+    
+  </div>
+</article>
+
+      
+        
+
+<article class="pub-card" data-category="conference" id="simultaneous-lmc-2024">
+  
+  <a class="pub-thumb" href="https://link.springer.com/chapter/10.1007/978-3-031-70368-3_16" tabindex="-1" aria-hidden="true">
+    <img src="/assets/images/simult.jpg" alt="Figure for Simultaneous Linear Connectivity of Neural Networks Modulo Permutation" loading="lazy">
+  </a>
+  
+
+  <div class="pub-body">
+    <div class="pub-badges">
+      <span class="venue-badge venue-badge--conference">ECML-PKDD 2024</span>
+      
+      <span class="venue-badge venue-badge--highlight">CPAL 2024 Spotlight</span>
+      
+      
+        
+        <span class="topic-tag">Mode Connectivity</span>
+        
+        <span class="topic-tag">Permutation Symmetries</span>
+        
+      
+    </div>
+
+    <h3 class="pub-title">
+      <a href="https://link.springer.com/chapter/10.1007/978-3-031-70368-3_16">Simultaneous Linear Connectivity of Neural Networks Modulo Permutation</a>
+    </h3>
+
+    <p class="pub-authors">
+      <strong class="self-author">Ekansh Sharma</strong>, Devin Kwok, Tom Denton, Daniel M. Roy, David Rolnick, Gintare Karolina Dziugaite
+    </p>
+
+    <p class="pub-venue">
+      ECML PKDD 2024 · CPAL 2024 Spotlight Track
+    </p>
+
+    <div class="pub-actions">
+      
+      <a class="btn-chip" href="https://link.springer.com/chapter/10.1007/978-3-031-70368-3_16">Paper</a>
+      
+      <a class="btn-chip" href="https://arxiv.org/abs/2404.06498">arXiv</a>
+      
+      <a class="btn-chip" href="https://arxiv.org/pdf/2404.06498">PDF</a>
+      
+      <a class="btn-chip" href="https://doi.org/10.1007/978-3-031-70368-3_16">DOI</a>
+      
+      
+      <button type="button" class="btn-chip btn-bibtex-toggle" aria-expanded="false" aria-controls="bib-simultaneous-lmc-2024">BibTeX</button>
+      
+    </div>
+
+    
+    <div class="bibtex-drawer" id="bib-simultaneous-lmc-2024" hidden>
+      <div class="bibtex-header">
+        <span>BibTeX Citation</span>
+        <button type="button" class="btn-copy-bib" data-bib-target="bib-code-simultaneous-lmc-2024">Copy</button>
+      </div>
+      <pre><code id="bib-code-simultaneous-lmc-2024">@inproceedings{sharma2024simultaneous,
+  title={Simultaneous Linear Connectivity of Neural Networks Modulo Permutation},
+  author={Sharma, Ekansh and Kwok, Devin and Denton, Tom and Roy, Daniel M. and Rolnick, David and Dziugaite, Gintare Karolina},
+  booktitle={Machine Learning and Knowledge Discovery in Databases (ECML PKDD)},
+  year={2024},
+  doi={10.1007/978-3-031-70368-3_16}
+}</code></pre>
+    </div>
+    
+  </div>
+</article>
+
+      
+        
+
+<article class="pub-card" data-category="journal" id="bootstrap-graphex-2021">
+  
+  <a class="pub-thumb" href="https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-15/issue-1/Bootstrap-estimators-for-the-tail-index-and-for-the-count/10.1214/20-EJS1789.full" tabindex="-1" aria-hidden="true">
+    <img src="/assets/images/bootstrap.jpg" alt="Figure for Bootstrap estimators for the tail-index and for the count statistics of graphex processes" loading="lazy">
+  </a>
+  
+
+  <div class="pub-body">
+    <div class="pub-badges">
+      <span class="venue-badge venue-badge--journal">EJS 2021</span>
+      
+      
+        
+        <span class="topic-tag">Random Graphs</span>
+        
+        <span class="topic-tag">Heavy-Tailed Asymptotics</span>
+        
+      
+    </div>
+
+    <h3 class="pub-title">
+      <a href="https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-15/issue-1/Bootstrap-estimators-for-the-tail-index-and-for-the-count/10.1214/20-EJS1789.full">Bootstrap estimators for the tail-index and for the count statistics of graphex processes</a>
+    </h3>
+
+    <p class="pub-authors">
+      Zacharie Naulet, Daniel M. Roy, <strong class="self-author">Ekansh Sharma</strong>, Victor Veitch
+    </p>
+
+    <p class="pub-venue">
+      Electronic Journal of Statistics, 15(1), 282–325 · 2021
+    </p>
+
+    <div class="pub-actions">
+      
+      <a class="btn-chip" href="https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-15/issue-1/Bootstrap-estimators-for-the-tail-index-and-for-the-count/10.1214/20-EJS1789.full">Journal</a>
+      
+      <a class="btn-chip" href="https://arxiv.org/abs/1712.01745">arXiv</a>
+      
+      <a class="btn-chip" href="https://arxiv.org/pdf/1712.01745">PDF</a>
+      
+      <a class="btn-chip" href="https://doi.org/10.1214/20-EJS1789">DOI</a>
+      
+      
+      <button type="button" class="btn-chip btn-bibtex-toggle" aria-expanded="false" aria-controls="bib-bootstrap-graphex-2021">BibTeX</button>
+      
+    </div>
+
+    
+    <div class="bibtex-drawer" id="bib-bootstrap-graphex-2021" hidden>
+      <div class="bibtex-header">
+        <span>BibTeX Citation</span>
+        <button type="button" class="btn-copy-bib" data-bib-target="bib-code-bootstrap-graphex-2021">Copy</button>
+      </div>
+      <pre><code id="bib-code-bootstrap-graphex-2021">@article{naulet2021bootstrap,
+  title={Bootstrap estimators for the tail-index and for the count statistics of graphex processes},
+  author={Naulet, Zacharie and Roy, Daniel M. and Sharma, Ekansh and Veitch, Victor},
+  journal={Electronic Journal of Statistics},
+  volume={15},
+  number={1},
+  pages={282--325},
+  year={2021},
+  doi={10.1214/20-EJS1789}
+}</code></pre>
+    </div>
+    
+  </div>
+</article>
+
+      
+        
+
+<article class="pub-card" data-category="conference" id="nested-mcmc-2020">
+  
+  <a class="pub-thumb" href="https://arxiv.org/abs/1912.06791" tabindex="-1" aria-hidden="true">
+    <img src="/assets/images/approx.jpg" alt="Figure for Approximations in Probabilistic Programs: A Compositional Nonasymptotic Analysis of Nested MCMC" loading="lazy">
+  </a>
+  
+
+  <div class="pub-body">
+    <div class="pub-badges">
+      <span class="venue-badge venue-badge--conference">PROBPROG 2020</span>
+      
+      
+        
+        <span class="topic-tag">Probabilistic Programming</span>
+        
+        <span class="topic-tag">Nonasymptotic MCMC</span>
+        
+      
+    </div>
+
+    <h3 class="pub-title">
+      <a href="https://arxiv.org/abs/1912.06791">Approximations in Probabilistic Programs: A Compositional Nonasymptotic Analysis of Nested MCMC</a>
+    </h3>
+
+    <p class="pub-authors">
+      <strong class="self-author">Ekansh Sharma</strong>, Daniel M. Roy
+    </p>
+
+    <p class="pub-venue">
+      International Conference on Probabilistic Programming (PROBPROG) · 2020
+    </p>
+
+    <div class="pub-actions">
+      
+      <a class="btn-chip" href="https://arxiv.org/abs/1912.06791">arXiv</a>
+      
+      <a class="btn-chip" href="https://arxiv.org/pdf/1912.06791">PDF</a>
+      
+      <a class="btn-chip" href="https://www.youtube.com/watch?v=rwA5QJbHZg0">Talk</a>
+      
+      <a class="btn-chip" href="https://probprog.cc/2020/assets/posters/thu/12.pdf">Poster</a>
+      
+      
+      <button type="button" class="btn-chip btn-bibtex-toggle" aria-expanded="false" aria-controls="bib-nested-mcmc-2020">BibTeX</button>
+      
+    </div>
+
+    
+    <div class="bibtex-drawer" id="bib-nested-mcmc-2020" hidden>
+      <div class="bibtex-header">
+        <span>BibTeX Citation</span>
+        <button type="button" class="btn-copy-bib" data-bib-target="bib-code-nested-mcmc-2020">Copy</button>
+      </div>
+      <pre><code id="bib-code-nested-mcmc-2020">@inproceedings{sharma2020approximations,
+  title={Approximations in Probabilistic Programs: A Compositional Nonasymptotic Analysis of Nested MCMC},
+  author={Sharma, Ekansh and Roy, Daniel M.},
+  booktitle={International Conference on Probabilistic Programming (PROBPROG)},
+  year={2020},
+  eprint={1912.06791},
+  archivePrefix={arXiv}
+}</code></pre>
+    </div>
+    
+  </div>
+</article>
+
+      
+        
+
+<article class="pub-card" data-category="preprint" id="exchangeable-relational-2020">
+  
+  <a class="pub-thumb" href="https://arxiv.org/abs/1712.02311" tabindex="-1" aria-hidden="true">
+    <img src="/assets/images/exchangeable.jpg" alt="Figure for Exchangeable modelling of relational data: checking sparsity, train-test splitting, and sparse exchangeable Poisson matrix factorization" loading="lazy">
+  </a>
+  
+
+  <div class="pub-body">
+    <div class="pub-badges">
+      <span class="venue-badge venue-badge--preprint">Preprint 2020</span>
+      
+      
+        
+        <span class="topic-tag">Relational Data</span>
+        
+        <span class="topic-tag">Bayesian Nonparametrics</span>
+        
+      
+    </div>
+
+    <h3 class="pub-title">
+      <a href="https://arxiv.org/abs/1712.02311">Exchangeable modelling of relational data: checking sparsity, train-test splitting, and sparse exchangeable Poisson matrix factorization</a>
+    </h3>
+
+    <p class="pub-authors">
+      Victor Veitch, <strong class="self-author">Ekansh Sharma</strong>, Zacharie Naulet, Daniel M. Roy
+    </p>
+
+    <p class="pub-venue">
+      Preprint arXiv:1712.02311 · 2020
+    </p>
+
+    <div class="pub-actions">
+      
+      <a class="btn-chip" href="https://arxiv.org/abs/1712.02311">arXiv</a>
+      
+      <a class="btn-chip" href="https://arxiv.org/pdf/1712.02311">PDF</a>
+      
+      
+      <button type="button" class="btn-chip btn-bibtex-toggle" aria-expanded="false" aria-controls="bib-exchangeable-relational-2020">BibTeX</button>
+      
+    </div>
+
+    
+    <div class="bibtex-drawer" id="bib-exchangeable-relational-2020" hidden>
+      <div class="bibtex-header">
+        <span>BibTeX Citation</span>
+        <button type="button" class="btn-copy-bib" data-bib-target="bib-code-exchangeable-relational-2020">Copy</button>
+      </div>
+      <pre><code id="bib-code-exchangeable-relational-2020">@article{veitch2017exchangeable,
+  title={Exchangeable modelling of relational data: checking sparsity, train-test splitting, and sparse exchangeable Poisson matrix factorization},
+  author={Veitch, Victor and Sharma, Ekansh and Naulet, Zacharie and Roy, Daniel M.},
+  journal={arXiv preprint arXiv:1712.02311},
+  year={2017}
+}</code></pre>
+    </div>
+    
+  </div>
+</article>
+
+      
+    </div>
+  </section>
+
+  <section class="section-block" id="recent-news" aria-labelledby="news-heading">
+    <div class="section-header">
+      <h2 id="news-heading">Recent News</h2>
+      <a class="section-more" href="/news/">All news &rarr;</a>
+    </div>
+
+    <div class="news-compact-list">
+      
+      <div class="news-compact-row">
+        <div class="news-date">June 2026</div>
+        <div class="news-items">
+          
+          <div>Our preprint <a href="https://arxiv.org/abs/2606.25147">TokenMinds: Pretrained User Tokens and Embeddings for User Understanding in Large Recommender Systems</a> is now available on arXiv.</div>
+          
+        </div>
+      </div>
+      
+      <div class="news-compact-row">
+        <div class="news-date">May 2026</div>
+        <div class="news-items">
+          
+          <div>My joint work with <a href="https://adnan1306.github.io/">Mohammed Adnan</a>, <a href="https://www.linkedin.com/in/rohanjain16/">Rohan Jain</a>, Tom Jacobs, <a href="https://www.cs.toronto.edu/~rahulgk/">Rahul G. Krishnan</a>, Rebekka Burkholz, and <a href="https://yani.ai/">Yani Ioannou</a> on <a href="https://arxiv.org/abs/2605.27541">SparseOpt: Addressing Normalization-induced Gradient Skew in Sparse Training</a> is accepted to <strong>ICML 2026</strong>.</div>
+          
+        </div>
+      </div>
+      
+      <div class="news-compact-row">
+        <div class="news-date">November 2025</div>
+        <div class="news-items">
+          
+          <div>Ph.D. in Computer Science conferred at the University of Toronto. Thesis: <em>Exploiting linear connectivity modulo permutations in neural networks for parsimonious machine learning</em>.</div>
+          
+        </div>
+      </div>
+      
+      <div class="news-compact-row">
+        <div class="news-date">September 2025</div>
+        <div class="news-items">
+          
+          <div>Started at Google as a Machine Learning Engineer working on large-scale recommender systems for YouTube Shorts.</div>
+          
+        </div>
+      </div>
+      
+      <div class="news-compact-row">
+        <div class="news-date">May 2025</div>
+        <div class="news-items">
+          
+          <div>My joint work with <a href="https://adnan1306.github.io/">Mohammed Adnan</a>, <a href="https://www.linkedin.com/in/rohanjain16/">Rohan Jain</a>, <a href="https://www.cs.toronto.edu/~rahulgk/">Rahul G. Krishnan</a>, and <a href="https://yani.ai/">Yani Ioannou</a> on <a href="https://arxiv.org/abs/2505.05143">Sparse Training from Random Initialization: Aligning Lottery Ticket Masks using Weight Symmetry</a> is accepted to <strong>ICML 2025</strong>.</div>
+          
+        </div>
+      </div>
+      
+    </div>
+  </section>
 </div>
 
-<p>I am a Machine Learning Engineer at Google. I recently completed my PhD in the <a href="http://cs.toronto.edu">Department of Computer Science</a> at the <a href="http://www.utoronto.ca">University of Toronto</a>, where I was advised by <a href="http://danroy.org">Dan Roy</a> and affiliated with the <a href="http://vectorinstitute.ai">Vector Institute</a>. I also hold a Master’s degree in Computer Science and a Bachelor’s degree in Electrical Engineering from the <a href="http://www.utoronto.ca">University of Toronto</a>.</p>
+      </main>
+      <footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-meta">
+      <span>&copy; 2026 Ekansh Sharma</span>
+      <span class="footer-sep" aria-hidden="true">·</span>
+      <span>Mountain View, CA</span>
+      <span class="footer-sep" aria-hidden="true">·</span>
+      <span>Updated Nov 13, 2026</span>
+    </div>
 
-<p>My research interests are primarily in deep learning, spanning methodology (algorithms) and theory for machine learning. I currently work on recommender systems for YouTube, developing LLMs and studying scaling laws for recommender systems. During my PhD, I exploited the geometric properties of deep neural network loss landscapes to design novel algorithms that enable parsimonious machine learning—methods that are both time-efficient and resource-conscious, making machine learning more accessible and deployable in diverse settings.</p>
-
-<p>Previously, I explored problems in probabilistic programming, Bayesian nonparametrics, and computational biology.</p>
-
-<h1 id="research-papers">Research papers</h1>
-
-<div class="captioned-img alignleft">
-    <a href="images/sparseopt.png">
-    
-    <img src="images/sparseopt.png" height="105px" />
-    </a>
-</div>
-
-<p><a href="https://arxiv.org/pdf/2605.27541"><strong>SparseOpt: Addressing Normalization-induced Gradient Skew in Sparse Training</strong></a><br />
-Mohammed Adnan, Rohan Jain, Tom Jacobs, Ekansh Sharma, Rahul G. Krishnan, Rebekka Burkholz, Yani Ioannou<br />
-<em>ICML</em> <em>2026</em><br />Links: [<a href="https://arxiv.org/abs/2605.27541">arXiv</a>]</p>
-
-<div class="captioned-img alignleft">
-    <a href="images/tokenminds.png">
-    
-    <img src="images/tokenminds.png" height="105px" />
-    </a>
-</div>
-
-<p><a href="https://arxiv.org/pdf/2606.25147"><strong>TokenMinds: Pretrained User Tokens and Embeddings for User Understanding in Large Recommender Systems</strong></a><br />
-Qingyun Liu, Bo Yan, Yang Liu, Yuji Roh, Ekansh Sharma, Likang Yin, Emma Olowo, Min-Hsuan Tsai, Yuxuan Li, Diego Uribe, Saksham Aggarwal, Siqi Wu, Yuan Hao, Vikas Kedigehalli, Lukasz Heldt, Lichan Hong, Li Wei, Xinyang Yi<br />
-<em>preprint arXiv:2606.25147</em> <em>(submitted for peer review)</em><br />Links: [<a href="https://arxiv.org/abs/2606.25147">arXiv</a>]</p>
-
-<div class="captioned-img alignleft">
-    <a href="images/sparse-resuse.jpg">
-    
-    <img src="images/sparse-resuse.jpg" height="105px" />
-    </a>
-</div>
-
-<p><a href="https://openreview.net/forum?id=xLiQjuoUyl#discussion"><strong>Sparse Training from Random Initialization: Aligning Lottery Ticket Masks using Weight Symmetry</strong></a><br />
-Rohan Jain, Mohammed Adnan, Ekansh Sharma,  Yani Ioannou<br />
-<em>ICML</em> <em>2025</em><br />Links: [<a href="https://openreview.net/forum?id=xLiQjuoUyl#discussion">openreview</a>]</p>
-
-<div class="captioned-img alignleft">
-    <a href="images/nlocal.jpg">
-    
-    <img src="images/nlocal.jpg" height="105px" />
-    </a>
-</div>
-
-<p><a href="https://arxiv.org/abs/2410.12766.pdf"><strong>The Non-Local Model Merging Problem: Permutation Symmetries and Variance Collapse</strong></a><br />
-Ekansh Sharma, Daniel M. Roy, Gintare Karolina Dziugaite<br />
-<em>preprint arXiv:2410.12766</em> <em>(submitted for peer review)</em><br />Links: [<a href="https://arxiv.org/abs/2410.12766">arXiv</a>]</p>
-
-<div class="captioned-img alignleft">
-    <a href="images/simult.jpg">
-    
-    <img src="images/simult.jpg" height="105px" />
-    </a>
-</div>
-
-<p><a href="https://arxiv.org/abs/2404.06498.pdf"><strong>Simultaneous Linear Connectivity of Neural Networks Modulo Permutation</strong></a><br />
-Ekansh Sharma, Devin Kwok, Tom Denton, Daniel M. Roy, David Rolnick , Gintare Karolina Dziugaite<br />
-<em>ECML PKDD</em> <em>2024</em> [<a href="https://doi.org/10.1007/978-3-031-70368-3_16">doi</a>]<br />Links: [<a href="https://link.springer.com/chapter/10.1007/978-3-031-70368-3_16">paper</a>][<a href="https://arxiv.org/abs/2404.06498">arXiv</a>]</p>
-
-<div class="captioned-img alignleft">
-    <a href="images/bootstrap.jpg">
-    
-    <img src="images/bootstrap.jpg" height="105px" />
-    </a>
-</div>
-
-<p><a href="https://arxiv.org/abs/1712.01745.pdf"><strong>Bootstrap estimators for the tail-index and for the count statistics of graphex processes</strong></a><br />
-Zacharie Naulet, Daniel M. Roy, Ekansh Sharma, Victor Veitch<br />
-<em>Electronic Journal of Statistics, 15 (1) 282 - 325</em> <em>2021</em> [<a href="https://doi.org/10.1214/20-EJS1789">doi</a>]<br />Links: [<a href="https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-15/issue-1/Bootstrap-estimators-for-the-tail-index-and-for-the-count/10.1214/20-EJS1789.full">paper</a>][<a href="https://arxiv.org/abs/1712.01745">arXiv</a>]</p>
-
-<div class="captioned-img alignleft">
-    <a href="images/approx.jpg">
-    
-    <img src="images/approx.jpg" height="105px" />
-    </a>
-</div>
-
-<p><a href="https://arxiv.org/pdf/1912.06791.pdf"><strong>Approximations in Probabilistic Programs</strong></a><br />
-Ekansh Sharma, Daniel M. Roy<br />
-<em>PROBPROG</em> <em>2020</em><br />Links: [<a href="https://arxiv.org/pdf/1912.06791">arXiv</a>][<a href="https://www.youtube.com/watch?v=rwA5QJbHZg0">talk</a>][<a href="https://probprog.cc/2020/assets/posters/thu/12.pdf">poster</a>]</p>
-
-<div class="captioned-img alignleft">
-    <a href="images/exchangeable.jpg">
-    
-    <img src="images/exchangeable.jpg" height="105px" />
-    </a>
-</div>
-
-<p><a href="https://arxiv.org/abs/1712.02311.pdf"><strong>Exchangeable modelling of relational data: checking sparsity, train-test splitting, and sparse exchangeable Poisson matrix factorization</strong></a><br />
-Victor Veitch, Ekansh Sharma, Zacharie Naulet, Daniel M. Roy<br />
-<em>preprint arXiv:1712.02311</em> <em>2020</em><br />Links: [<a href="https://arxiv.org/abs/1712.02311">arXiv</a>]</p>
-
-<h1 id="contact">Contact</h1>
-
-<p><strong>Email:</strong> <em>ekansh</em> -at- <em>cs</em> -dot- <em>toronto</em> -dot- <em>edu</em> <br />
-<strong>GitHub</strong>: <a href="https://github.com/ekanshs/">https://github.com/ekanshs/</a> <br />
-<strong>Office:</strong> 
-<a href="http://danroy.org">Vector Institute</a> <br />
-Schwartz Reisman Innovation Campus <br />
-108 College St W1140, Toronto, ON M5G 0C6</p>
-
-
-</div>
-
-
-    <footer class="site-footer">
-    © Ekansh Sharma 2025<br />
-
-    Using <a href="http://jekyllrb.com/">Jekyll</a>
-    
-    
-    Last Updated:     <pubDate>Fri, 10 Jul 2026</pubDate>
+    <div class="footer-links">
+      <a href="#email" data-email-compose>Email</a>
+      <a href="https://scholar.google.com/citations?user=YLf2td8AAAAJ">Google Scholar</a>
+      <a href="https://github.com/ekanshs">GitHub</a>
+      <a href="/cv/cv.pdf">CV (PDF)</a>
+    </div>
+  </div>
 </footer>
 
-
-    
-
     </div>
+    <script src="/assets/js/main.js" defer></script>
   </body>
-
 </html>

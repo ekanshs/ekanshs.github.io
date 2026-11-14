@@ -1,90 +1,398 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <title>Curriculum Vitae · Ekansh Sharma</title>
+  <meta name="description" content="Machine learning researcher and engineer specializing in large-scale sequential modeling, optimization geometry, low-precision training numerics, and statistical inference.">
+  <meta name="author" content="Ekansh Sharma">
+  <link rel="canonical" href="https://ekansharma.org/cv/">
+  <link rel="alternate" type="application/rss+xml" title="Ekansh Sharma" href="/feed.xml">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23b6321c'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Calibri,Carlito,sans-serif' font-weight='700' font-size='30' fill='%23ffffff'%3EES%3C/text%3E%3C/svg%3E">
 
-    <title>Ekansh Sharma :: Curriculum Vitae</title>
-    <meta name="description" content="© Ekansh Sharma 2025">
+  <!-- Open Graph & Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Curriculum Vitae · Ekansh Sharma">
+  <meta property="og:description" content="Machine learning researcher and engineer specializing in large-scale sequential modeling, optimization geometry, low-precision training numerics, and statistical inference.">
+  <meta property="og:url" content="https://ekansharma.org/cv/">
+  <meta property="og:site_name" content="Ekansh Sharma">
+  <meta property="og:image" content="https://ekansharma.org/assets/images/ekansh.jpg">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Curriculum Vitae · Ekansh Sharma">
+  <meta name="twitter:description" content="Machine learning researcher and engineer specializing in large-scale sequential modeling, optimization geometry, low-precision training numerics, and statistical inference.">
+  <meta name="twitter:image" content="https://ekansharma.org/assets/images/ekansh.jpg">
 
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://ekanshs.github.io/cv/">
-    <link rel="alternate" type="application/rss+xml" title="Ekansh Sharma" href="http://ekanshs.github.io/feed.xml" />
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('ekanshs-theme');
+        document.documentElement.dataset.theme = (stored === 'dark' || stored === 'light') ? stored : 'light';
+      } catch (e) {
+        document.documentElement.dataset.theme = 'light';
+      }
+    })();
+  </script>
 
-    <link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
-
   <body>
-  <div class="page">
-    <header class="site-header">
-    <a class="site-title" href="/">Ekansh Sharma</a>
-    <nav class="site-nav">
-        <a href="#" class="menu-icon menu.open">
-            <svg viewBox="0 0 18 15">
-                <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-                <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-                <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-            </svg>
-        </a>
-        <div class="trigger"><h1>Main Navigation</h1>
-            <ul class="menu">
-    
-    
-     <li><a href="/" class="page-link">About</a>
-    
-    </li>
-    
-    
-     <li><a href="/news/" class="page-link">News</a>
-    
-    </li>
-    
-    
-     <li><a href="/skills/" class="page-link">Skills</a>
-    
-    </li>
-    
-    
-     <li><a href="/cv/" class="page-link">CV</a>
-    
-    </li>
-    
-</ul>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <div class="site-shell">
+      <header class="site-header">
+  <div class="container header-inner">
+    <a class="site-brand" href="/">
+      <span class="brand-name">Ekansh Sharma</span>
+    </a>
 
-        </div>
-    </nav>
+    <div class="header-right">
+      <nav class="site-nav" aria-label="Primary navigation">
+        
+          
+          
+          
+          
+          <a class="nav-link"
+             href="/"
+             >About</a>
+        
+          
+          
+          
+          
+          <a class="nav-link"
+             href="/experience/"
+             >Experience</a>
+        
+          
+          
+          
+          
+          <a class="nav-link"
+             href="/news/"
+             >News</a>
+        
+          
+          
+          
+          
+          <a class="nav-link is-active"
+             href="/cv/"
+             aria-current="page">CV</a>
+        
+      </nav>
+
+      <button type="button" id="theme-toggle" class="icon-btn" aria-label="Toggle color theme" title="Toggle light/dark theme">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+        </svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+
+      <button type="button" id="nav-toggle" class="icon-btn nav-toggle-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+        <svg class="icon-menu" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+        <svg class="icon-close" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation" hidden>
+    <div class="container mobile-nav-inner">
+      
+        
+        
+        
+        
+        <a class="mobile-nav-link"
+           href="/"
+           >About</a>
+      
+        
+        
+        
+        
+        <a class="mobile-nav-link"
+           href="/experience/"
+           >Experience</a>
+      
+        
+        
+        
+        
+        <a class="mobile-nav-link"
+           href="/news/"
+           >News</a>
+      
+        
+        
+        
+        
+        <a class="mobile-nav-link is-active"
+           href="/cv/"
+           aria-current="page">CV</a>
+      
+    </div>
+  </nav>
 </header>
 
+      <main id="main-content" class="site-main">
+        <div class="container page-container">
+  
+  <header class="page-header">
+    <h1 class="page-title">Curriculum Vitae</h1>
+    
+    <p class="page-subtitle">PDF version compiled from LaTeX alongside an accessible web summary.</p>
+    
+  </header>
+  
 
-    <div class="post">
-    <header class="post-header">
-        <h1>Curriculum Vitae</h1>
-    </header>
-
-    <p>Download <a href="cv.pdf">PDF version</a>.</p>
-
-<iframe src="https://docs.google.com/viewer?url=https://ekanshs.github.io/cv/cv.pdf&amp;hl=en_US&amp;embedded=true" style="width:100%; height:800px; border:0;" scrolling="no"></iframe>
-
-
+  <div class="page-content">
+    <div class="cv-toolbar">
+  <div class="cv-toolbar-note">
+    Download the full formatted two-page PDF or browse the structured summary below.
+  </div>
+  <div class="cv-toolbar-actions">
+    <a class="action-pill action-pill--primary" href="/cv/cv.pdf" download="Ekansh_Sharma_CV.pdf">Download PDF</a>
+    <a class="action-pill" href="/cv/cv.pdf" target="_blank" rel="noopener">Open in New Tab</a>
+  </div>
 </div>
 
+<div class="cv-pdf-frame">
+  <object data="/cv/cv.pdf" type="application/pdf" class="cv-pdf-object" title="Ekansh Sharma Curriculum Vitae PDF">
+    <div class="cv-pdf-fallback">
+      <p>Your browser cannot display the embedded PDF inline.</p>
+      <p><a class="action-pill action-pill--primary" href="/cv/cv.pdf" target="_blank" rel="noopener">Open CV PDF</a></p>
+    </div>
+  </object>
+</div>
 
-    <footer class="site-footer">
-    © Ekansh Sharma 2025<br />
+<details class="cv-summary-details" open>
+  <summary>Web Summary View (Mobile &amp; Screen-Reader Friendly)</summary>
+  <div class="cv-summary-body">
+    <section class="cv-summary-section">
+      <h2>Research Profile &amp; Contact</h2>
+      <p>
+        <strong>Ekansh Sharma</strong> — Machine Learning Engineer (Google (YouTube Shorts)) · Mountain View, CA<br>
+        Email: <a href="#email" data-email-compose><span class="obf-email" aria-hidden="true">moc -tod- liamg -ta- hsnake.amrahs</span></a> (<button type="button" class="inline-copy-btn" data-email-copy>Copy</button>) ·
+        <a href="https://scholar.google.com/citations?user=YLf2td8AAAAJ">Google Scholar</a> ·
+        <a href="https://github.com/ekanshs">GitHub</a>
+      </p>
+      <p>Machine learning researcher and engineer specializing in large-scale sequential modeling, optimization geometry, low-precision training numerics, and statistical inference.</p>
+    </section>
 
-    Using <a href="http://jekyllrb.com/">Jekyll</a>
-    
-    
-    Last Updated:     <pubDate>Fri, 10 Jul 2026</pubDate>
+    <section class="cv-summary-section">
+      <h2>Professional &amp; Research Experience</h2>
+      <div class="card-stack">
+        
+        <div>
+          <div class="exp-header">
+            <div>
+              <strong>Google</strong> — Machine Learning Engineer — YouTube Shorts
+            </div>
+            <div class="exp-meta">
+              <span class="exp-period">September 2025 – Present</span> · Mountain View, CA, USA
+            </div>
+          </div>
+          <ul class="exp-list">
+            
+            <li><strong>Generative Sequential User Modeling (TokenMinds):</strong> Co-authored and deployed an LLM-adapted encoder-decoder user model (370M MoE encoder / 370M dense decoder in JAX) unifying short-form, long-form, and search histories via hierarchical RQ-VAE Semantic IDs; serves billions of users asynchronously (1.44M read QPS, 96.4% cache hit rate), cutting upstream training and serving compute by 50% and 31% while driving statistically significant live A/B gains on YouTube Shorts (+0.13% Satisfied Engagement, +0.11% Engaged Users, +0.33% Freshness Engagement).</li>
+            
+            <li><strong>Long-Context Compression & Representation Stability:</strong> Extended sequential user modeling to long interaction horizons using soft-token compression, sparse cross-attention bottlenecks, and multi-resolution recency compression. Established longitudinal representation-stability diagnostics (cosine drift, perturbation invariance, split-history self-retrieval, and effective-rank monitoring) and non-autoregressive auxiliary reconstruction objectives to prevent representation collapse under continuous daily training.</li>
+            
+            <li><strong>Causal Point-Process Objectives, Variance Reduction & Cold-Start Estimation:</strong> Designed multi-task sequence objectives for noisy implicit-feedback streams, incorporating right-censored survival/hazard modeling, count-process supervision, deterministic importance/loss weighting, and C++ streaming input filters with strict request-time causality checks against lookahead label leakage; developed empirical-Bayes shrinkage representations for cold-start candidate scoring.</li>
+            
+            <li><strong>Optimization Symmetries & Low-Precision Training Numerics:</strong> Investigated orthogonal gauge symmetries and outlier-mitigation techniques for low-precision (FP8/INT4) quantization-aware training under matrix-sign and adaptive optimizers; profiled end-to-end XLA/TPU HBM, VMEM, and operator-fusion rooflines on large-scale multi-task ranking architectures.</li>
+            
+            <li><strong>Scaling Laws & Experimentation Infrastructure:</strong> Conducted Iso-FLOPS capacity, batch-size scaling, Maximal Update Parameterization (μP), and low-compute proxy transfer studies to predict full-scale ranking performance; led multi-launch model integration cycles and built automated training-lifecycle governance and paired statistical evaluation tooling for continuous TPU training pipelines.</li>
+            
+          </ul>
+        </div>
+        
+        <div>
+          <div class="exp-header">
+            <div>
+              <strong>Vector Institute & University of Toronto</strong> — Graduate Researcher (Adviser: Prof. Daniel M. Roy)
+            </div>
+            <div class="exp-meta">
+              <span class="exp-period">March 2018 – August 2025</span> · Toronto, ON, Canada
+            </div>
+          </div>
+          <ul class="exp-list">
+            
+            <li><strong>Loss-Landscape Geometry & Non-Local Model Merging:</strong> Established simultaneous linear mode connectivity modulo permutation symmetries across neural network populations (ECML-PKDD 2024; CPAL Spotlight 2024); identified deep-layer variance collapse in non-local multi-task model merging across distinct foundation models and open-sourced task-specific statistical repair (TACT).</li>
+            
+            <li><strong>Sparse Optimization Dynamics:</strong> Analyzed normalization-induced gradient skew in sparse training from scratch (SparseOpt, ICML 2026) and weight-symmetry permutation alignment for random-initialization lottery-ticket masks (ICML 2025).</li>
+            
+            <li><strong>Nonasymptotic Monte Carlo & Heavy-Tailed Random Graphs:</strong> Derived compositional nonasymptotic error bounds for nested MCMC in probabilistic programs and consistent bootstrap tail-index estimators for sparse exchangeable power-law graphs (Electronic Journal of Statistics, 2021).</li>
+            
+          </ul>
+        </div>
+        
+        <div>
+          <div class="exp-header">
+            <div>
+              <strong>Amazon.com</strong> — Applied Scientist Intern — Sponsored Display Ads (Manager: Ben Allison)
+            </div>
+            <div class="exp-meta">
+              <span class="exp-period">January 2021 – May 2021</span> · Edinburgh, UK
+            </div>
+          </div>
+          <ul class="exp-list">
+            
+            <li><strong>Counterfactual Evaluation & Contextual Bandits:</strong> Developed counterfactual off-policy evaluation estimators for ad-selection policies to quantify conversion lift while reducing live A/B exploration cost; evaluated Upper Confidence Bound (UCB) contextual bandit algorithms in production A/B experiments measuring click-conversion rate.</li>
+            
+          </ul>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="cv-summary-section">
+      <h2>Education</h2>
+      <ul class="clean-list">
+        
+        <li>
+          <strong>Ph.D. in Computer Science</strong>, University of Toronto (Conferred November 2025)
+           · Adviser: Prof. Daniel M. Roy
+          <br><em>Thesis: Exploiting linear connectivity modulo permutations in neural networks for parsimonious machine learning</em>
+          
+        </li>
+        
+        <li>
+          <strong>M.Sc. in Computer Science</strong>, University of Toronto (Conferred 2018)
+           · Adviser: Prof. Daniel M. Roy
+          <br><em>Thesis: Sparse exchangeable bipartite graphs</em>
+          
+        </li>
+        
+        <li>
+          <strong>B.A.Sc. with Honors in Electrical Engineering</strong>, University of Toronto (Conferred 2016)
+          
+          
+          <br>Minor in Robotics and Mechatronics
+        </li>
+        
+      </ul>
+    </section>
+
+    <section class="cv-summary-section">
+      <h2>Selected Publications &amp; Preprints</h2>
+      <ol class="cv-pub-list">
+        
+        <li>
+          <a href="https://arxiv.org/abs/2606.25147"><strong>TokenMinds: Pretrained User Tokens and Embeddings for User Understanding in Large Recommender Systems</strong></a>.
+          Qingyun Liu, Bo Yan, Yang Liu, Yuji Roh, <strong>Ekansh Sharma</strong>, Likang Yin, Emma Olowo, Yuxuan Li, Yuan Jiang, Diego Uribe, Saksham Aggarwal, Siqi Wu, Yuan Hao, Vikas Kedigehalli, Min-Hsuan Tsai, Lukasz Heldt, Lichan Hong, Li Wei, Xinyang Yi.
+          <em>Preprint arXiv:2606.25147</em> (2026).
+        </li>
+        
+        <li>
+          <a href="https://arxiv.org/abs/2605.27541"><strong>SparseOpt: Addressing Normalization-induced Gradient Skew in Sparse Training</strong></a>.
+          Mohammed Adnan, Rohan Jain, Tom Jacobs, <strong>Ekansh Sharma</strong>, Rahul G. Krishnan, Rebekka Burkholz, Yani Ioannou.
+          <em>International Conference on Machine Learning (ICML)</em> (2026).
+        </li>
+        
+        <li>
+          <a href="https://arxiv.org/abs/2505.05143"><strong>Sparse Training from Random Initialization: Aligning Lottery Ticket Masks using Weight Symmetry</strong></a>.
+          Mohammed Adnan, Rohan Jain, <strong>Ekansh Sharma</strong>, Rahul G. Krishnan, Yani Ioannou.
+          <em>International Conference on Machine Learning (ICML)</em> (2025).
+        </li>
+        
+        <li>
+          <a href="https://arxiv.org/abs/2410.12766"><strong>The Non-Local Model Merging Problem: Permutation Symmetries and Variance Collapse</strong></a>.
+          <strong>Ekansh Sharma</strong>, Daniel M. Roy, Gintare Karolina Dziugaite.
+          <em>Preprint arXiv:2410.12766</em> (2024).
+        </li>
+        
+        <li>
+          <a href="https://link.springer.com/chapter/10.1007/978-3-031-70368-3_16"><strong>Simultaneous Linear Connectivity of Neural Networks Modulo Permutation</strong></a>.
+          <strong>Ekansh Sharma</strong>, Devin Kwok, Tom Denton, Daniel M. Roy, David Rolnick, Gintare Karolina Dziugaite.
+          <em>ECML PKDD 2024 · CPAL 2024 Spotlight Track</em> (2024).
+        </li>
+        
+        <li>
+          <a href="https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-15/issue-1/Bootstrap-estimators-for-the-tail-index-and-for-the-count/10.1214/20-EJS1789.full"><strong>Bootstrap estimators for the tail-index and for the count statistics of graphex processes</strong></a>.
+          Zacharie Naulet, Daniel M. Roy, <strong>Ekansh Sharma</strong>, Victor Veitch.
+          <em>Electronic Journal of Statistics, 15(1), 282–325</em> (2021).
+        </li>
+        
+        <li>
+          <a href="https://arxiv.org/abs/1912.06791"><strong>Approximations in Probabilistic Programs: A Compositional Nonasymptotic Analysis of Nested MCMC</strong></a>.
+          <strong>Ekansh Sharma</strong>, Daniel M. Roy.
+          <em>International Conference on Probabilistic Programming (PROBPROG)</em> (2020).
+        </li>
+        
+        <li>
+          <a href="https://arxiv.org/abs/1712.02311"><strong>Exchangeable modelling of relational data: checking sparsity, train-test splitting, and sparse exchangeable Poisson matrix factorization</strong></a>.
+          Victor Veitch, <strong>Ekansh Sharma</strong>, Zacharie Naulet, Daniel M. Roy.
+          <em>Preprint arXiv:1712.02311</em> (2020).
+        </li>
+        
+      </ol>
+    </section>
+
+    <section class="cv-summary-section">
+      <h2>Technical Skills</h2>
+      <ul class="clean-list">
+        
+        <li><strong>Languages & Systems:</strong> Python, C++, C, SQL, Bash; multi-slice TPU/GPU distributed training, custom C++ streaming data & sparse coordinate kernels, XLA/Pallas profiling, HBM/VMEM roofline analysis.</li>
+        
+        <li><strong>ML & Optimization:</strong> JAX/Flax, PyTorch, TensorFlow; LLM/Transformer sequence modeling, non-Euclidean/matrix-sign & sparse optimization, low-precision (FP8/INT4) training numerics, model merging, μP scaling.</li>
+        
+        <li><strong>Statistical & Quantitative Methods:</strong> Survival & point-process hazard modeling, counterfactual and off-policy evaluation, contextual bandits, empirical-Bayes shrinkage, heavy-tailed asymptotics, nonasymptotic concentration, MCMC, low-SNR paired/bootstrap inference.</li>
+        
+      </ul>
+    </section>
+
+    <section class="cv-summary-section">
+      <h2>Honors &amp; Academic Service</h2>
+      <ul class="clean-list">
+        <li><strong>Awards:</strong> Vector Research Grant (2018–2025); Department of Computer Science 50th Anniversary Graduate Scholarship (2017); University of Toronto Excellence Award (2013, 2015); Dean's Honors List (2011–2016).</li>
+        <li><strong>Academic Service:</strong> Reviewer: NeurIPS (2021–2023, 2025–2026); Reviewer: ICML (2023–2025); Reviewer: ICLR (2020–2023).</li>
+      </ul>
+    </section>
+  </div>
+</details>
+
+  </div>
+</div>
+
+      </main>
+      <footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-meta">
+      <span>&copy; 2026 Ekansh Sharma</span>
+      <span class="footer-sep" aria-hidden="true">·</span>
+      <span>Mountain View, CA</span>
+      <span class="footer-sep" aria-hidden="true">·</span>
+      <span>Updated Nov 13, 2026</span>
+    </div>
+
+    <div class="footer-links">
+      <a href="#email" data-email-compose>Email</a>
+      <a href="https://scholar.google.com/citations?user=YLf2td8AAAAJ">Google Scholar</a>
+      <a href="https://github.com/ekanshs">GitHub</a>
+      <a href="/cv/cv.pdf">CV (PDF)</a>
+    </div>
+  </div>
 </footer>
 
-
-    
-
     </div>
+    <script src="/assets/js/main.js" defer></script>
   </body>
-
 </html>

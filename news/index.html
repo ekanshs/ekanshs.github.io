@@ -1,188 +1,390 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <title>News & Milestones · Ekansh Sharma</title>
+  <meta name="description" content="Machine learning researcher and engineer specializing in large-scale sequential modeling, optimization geometry, low-precision training numerics, and statistical inference.">
+  <meta name="author" content="Ekansh Sharma">
+  <link rel="canonical" href="https://ekansharma.org/news/">
+  <link rel="alternate" type="application/rss+xml" title="Ekansh Sharma" href="/feed.xml">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23b6321c'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Calibri,Carlito,sans-serif' font-weight='700' font-size='30' fill='%23ffffff'%3EES%3C/text%3E%3C/svg%3E">
 
-    <title>Ekansh Sharma :: News and travel</title>
-    <meta name="description" content="© Ekansh Sharma 2025">
+  <!-- Open Graph & Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="News & Milestones · Ekansh Sharma">
+  <meta property="og:description" content="Machine learning researcher and engineer specializing in large-scale sequential modeling, optimization geometry, low-precision training numerics, and statistical inference.">
+  <meta property="og:url" content="https://ekansharma.org/news/">
+  <meta property="og:site_name" content="Ekansh Sharma">
+  <meta property="og:image" content="https://ekansharma.org/assets/images/ekansh.jpg">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="News & Milestones · Ekansh Sharma">
+  <meta name="twitter:description" content="Machine learning researcher and engineer specializing in large-scale sequential modeling, optimization geometry, low-precision training numerics, and statistical inference.">
+  <meta name="twitter:image" content="https://ekansharma.org/assets/images/ekansh.jpg">
 
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://ekanshs.github.io/news/">
-    <link rel="alternate" type="application/rss+xml" title="Ekansh Sharma" href="http://ekanshs.github.io/feed.xml" />
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('ekanshs-theme');
+        document.documentElement.dataset.theme = (stored === 'dark' || stored === 'light') ? stored : 'light';
+      } catch (e) {
+        document.documentElement.dataset.theme = 'light';
+      }
+    })();
+  </script>
 
-    <link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
-
   <body>
-  <div class="page">
-    <header class="site-header">
-    <a class="site-title" href="/">Ekansh Sharma</a>
-    <nav class="site-nav">
-        <a href="#" class="menu-icon menu.open">
-            <svg viewBox="0 0 18 15">
-                <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-                <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-                <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-            </svg>
-        </a>
-        <div class="trigger"><h1>Main Navigation</h1>
-            <ul class="menu">
-    
-    
-     <li><a href="/" class="page-link">About</a>
-    
-    </li>
-    
-    
-     <li><a href="/news/" class="page-link">News</a>
-    
-    </li>
-    
-    
-     <li><a href="/skills/" class="page-link">Skills</a>
-    
-    </li>
-    
-    
-     <li><a href="/cv/" class="page-link">CV</a>
-    
-    </li>
-    
-</ul>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <div class="site-shell">
+      <header class="site-header">
+  <div class="container header-inner">
+    <a class="site-brand" href="/">
+      <span class="brand-name">Ekansh Sharma</span>
+    </a>
 
-        </div>
-    </nav>
+    <div class="header-right">
+      <nav class="site-nav" aria-label="Primary navigation">
+        
+          
+          
+          
+          
+          <a class="nav-link"
+             href="/"
+             >About</a>
+        
+          
+          
+          
+          
+          <a class="nav-link"
+             href="/experience/"
+             >Experience</a>
+        
+          
+          
+          
+          
+          <a class="nav-link is-active"
+             href="/news/"
+             aria-current="page">News</a>
+        
+          
+          
+          
+          
+          <a class="nav-link"
+             href="/cv/"
+             >CV</a>
+        
+      </nav>
+
+      <button type="button" id="theme-toggle" class="icon-btn" aria-label="Toggle color theme" title="Toggle light/dark theme">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+        </svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+
+      <button type="button" id="nav-toggle" class="icon-btn nav-toggle-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+        <svg class="icon-menu" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+        <svg class="icon-close" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation" hidden>
+    <div class="container mobile-nav-inner">
+      
+        
+        
+        
+        
+        <a class="mobile-nav-link"
+           href="/"
+           >About</a>
+      
+        
+        
+        
+        
+        <a class="mobile-nav-link"
+           href="/experience/"
+           >Experience</a>
+      
+        
+        
+        
+        
+        <a class="mobile-nav-link is-active"
+           href="/news/"
+           aria-current="page">News</a>
+      
+        
+        
+        
+        
+        <a class="mobile-nav-link"
+           href="/cv/"
+           >CV</a>
+      
+    </div>
+  </nav>
 </header>
 
+      <main id="main-content" class="site-main">
+        <div class="container page-container">
+  
+  <header class="page-header">
+    <h1 class="page-title">News & Milestones</h1>
+    
+    <p class="page-subtitle">Research updates, publications, career transitions, and talks.</p>
+    
+  </header>
+  
 
-    <div class="post">
-    <header class="post-header">
-        <h1>News and travel</h1>
-    </header>
-
-    <!-- ## News and Travel -->
-<blockquote>
-  <p><strong>May 2026</strong></p>
-  <ul>
-    <li>My joint work with <a href="https://adnan1306.github.io/">Mohammed Adnan</a>, <a href="https://www.linkedin.com/in/rohanjain16/">Rohan Jain</a>, Tom Jacobs, <a href="https://www.cs.toronto.edu/~rahulgk/">Rahul G. Krishnan</a>, Rebekka Burkholz, and <a href="https://yani.ai/">Yani Ioannou</a> on “SparseOpt: Addressing Normalization-induced Gradient Skew in Sparse Training” is accepted to the ICML 2026 Conference. Check it out <a href="https://arxiv.org/abs/2605.27541">here</a>.</li>
-  </ul>
-</blockquote>
-
-<blockquote>
-  <p><strong>September 2025</strong></p>
-  <ul>
-    <li>I started working at Google as a Machine Learning Engineer, working on recommender systems.</li>
-  </ul>
-</blockquote>
-
-<blockquote>
-  <p><strong>May 2025</strong></p>
-  <ul>
-    <li>My joint work with <a href="https://adnan1306.github.io/">Mohammed Adnan</a>, <a href="https://www.linkedin.com/in/rohanjain16/">Rohan Jain</a>, and <a href="https://yani.ai/">Yani Ioannou</a> on  “Sparse Training from Random Initialization: Aligning Lottery Ticket Masks using Weight Symmetry” is accepted to the ICML 2025 Conference.</li>
-  </ul>
-</blockquote>
-
-<blockquote>
-  <p><strong>January 2025</strong></p>
-  <ul>
-    <li>I am on the job market! Please check out my <a href="../cv/">CV</a> and reach out if you have an opening.</li>
-  </ul>
-</blockquote>
-
-<blockquote>
-  <p><strong>December 2024</strong></p>
-  <ul>
-    <li>My joint work with <a href="https://adnan1306.github.io/">Mohammed Adnan</a>, <a href="https://www.linkedin.com/in/rohanjain16/">Rohan Jain</a>, and <a href="https://yani.ai/">Yani Ioannou</a> on  “Winning Tickets from Random Initialization: Aligning Masks for Sparse Training” is accepted to the UniREPS workshop at the NeurIPS 2024. Check it out <a href="https://openreview.net/forum?id=xLiQjuoUyl#discussion">here</a>.</li>
-  </ul>
-</blockquote>
-
-<blockquote>
-  <p><strong>October 2024</strong></p>
-  <ul>
-    <li>New pre-print on “The Non-Local Model Merging Problem: Permutation Symmetries and Variance Collapse” is out on arXiv! Check it out <a href="https://arxiv.org/abs/2410.12766">here</a>.</li>
-  </ul>
-</blockquote>
-
-<blockquote>
-  <p><strong>May 2024</strong></p>
-  <ul>
-    <li>My joint work with <a href="https://www.devinkwok.com/">Devin Kwok</a>, <a href="https://scholar.google.com/citations?user=M1nVuUgAAAAJ&amp;hl=en">Tom Denton</a>, <a href="http://danroy.org/">Daniel M. Roy</a>, <a href="https://davidrolnick.com/">David Rolnick</a> and <a href="https://gkdz.org/">Gintare K. Dziugaite</a> on “Simultaneous Linear Connectivity of Neural Networks Modulo Permutation” is accepted to the ECML PKDD 2024 conference. Check it out <a href="https://link.springer.com/chapter/10.1007/978-3-031-70368-3_16">here</a>.</li>
-  </ul>
-</blockquote>
-
-<blockquote>
-  <p><strong>Nov 2023</strong></p>
-  <ul>
-    <li>My joint work with <a href="https://www.devinkwok.com/">Devin Kwok</a>, <a href="https://scholar.google.com/citations?user=M1nVuUgAAAAJ&amp;hl=en">Tom Denton</a>, <a href="http://danroy.org/">Daniel M. Roy</a>, <a href="https://davidrolnick.com/">David Rolnick</a> and <a href="https://gkdz.org/">Gintare K. Dziugaite</a> on “Simultaneous Linear Connectivity of Neural Networks Modulo Permutation” was accepted for a non-arxival spotlight at the CPAL 2024 conference.</li>
-  </ul>
-</blockquote>
-
-<blockquote>
-  <p><strong>December 2021</strong></p>
-  <ul>
-    <li>I switched my research focus from studying probabilistic programming to deep learning. <br />
-Thank you Dan for your support!</li>
-  </ul>
-</blockquote>
-
-<blockquote>
-  <p><strong>January 2021</strong></p>
-  <ul>
-    <li>I am moving to Edinburgh for a few months.</li>
-    <li>I am interning as an Applied Scientist in the Sponsored Display team at Amazon.com.  I’ll be working under <a href="https://scholar.google.com/citations?user=IyWRhGMAAAAJ&amp;hl=en">Ben Allison</a>.</li>
-  </ul>
-</blockquote>
-
-<blockquote>
-  <p><strong>December 2020</strong></p>
-  <ul>
-    <li>My joint work with <a href="https://znaulet.pages.mia.inra.fr/">Zacharie Naulet</a>, <a href="http://danroy.org/">Daniel M. Roy</a>, and <a href="https://www.victorveitch.com/">Victor Veitch</a> on “Bootstrap estimators for the tail-index and for the count statistics of graphex processes” is accepted to the <em>Electronic Journal of Statistics</em>. Check it out <a href="https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-15/issue-1/Bootstrap-estimators-for-the-tail-index-and-for-the-count/10.1214/20-EJS1789.full">here</a>.</li>
-  </ul>
-</blockquote>
-
-<blockquote>
-  <p><strong>January 2020</strong></p>
-  <ul>
-    <li>My joint work with <a href="http://danroy.org/">Daniel M. Roy</a> on “Approximations in Probabilistic Programs: a Compositional Nonasymptotic analysis of Nested MCMC” is accepted to the <em>ProbProg 2020</em>. Check it out <a href="https://arxiv.org/abs/1912.06791">here</a></li>
-  </ul>
-</blockquote>
-
-<blockquote>
-  <p><strong>December 2019</strong></p>
-  <ul>
-    <li>I presented at a poster at the  <a href="https://program-transformations.github.io/">Program Transformations for ML</a> workshop at the <a href="https://neurips.cc/Conferences/2019">NeurIPS 2019</a>.</li>
-  </ul>
-</blockquote>
-
-<blockquote>
-  <p><strong>January 2018</strong></p>
-  <ul>
-    <li>I transitioned from the Master of Science program to the Doctor of Philosophy program.</li>
-    <li>I gave a talk at the <a href="https://popl18.sigplan.org/track/pps-2018">Probabilistic Programming Languages, Semantics, and Systems  (PPS 2018)</a> workshop in the <a href="https://popl18.sigplan.org/home">45th ACM SIGPLAN Symposium on Principles of Programming Languages (POPL 2018)</a>.</li>
-  </ul>
-</blockquote>
-
-
+  <div class="page-content">
+    <div class="news-timeline">
+  
+  <article class="news-timeline-group" id="june-2026">
+    <span class="news-timeline-dot" aria-hidden="true"></span>
+    <div class="news-timeline-card">
+      <div class="news-timeline-date">June 2026</div>
+      <div class="news-timeline-bullets">
+        
+        <div>Our preprint <a href="https://arxiv.org/abs/2606.25147">TokenMinds: Pretrained User Tokens and Embeddings for User Understanding in Large Recommender Systems</a> is now available on arXiv.</div>
+        
+      </div>
+    </div>
+  </article>
+  
+  <article class="news-timeline-group" id="may-2026">
+    <span class="news-timeline-dot" aria-hidden="true"></span>
+    <div class="news-timeline-card">
+      <div class="news-timeline-date">May 2026</div>
+      <div class="news-timeline-bullets">
+        
+        <div>My joint work with <a href="https://adnan1306.github.io/">Mohammed Adnan</a>, <a href="https://www.linkedin.com/in/rohanjain16/">Rohan Jain</a>, Tom Jacobs, <a href="https://www.cs.toronto.edu/~rahulgk/">Rahul G. Krishnan</a>, Rebekka Burkholz, and <a href="https://yani.ai/">Yani Ioannou</a> on <a href="https://arxiv.org/abs/2605.27541">SparseOpt: Addressing Normalization-induced Gradient Skew in Sparse Training</a> is accepted to <strong>ICML 2026</strong>.</div>
+        
+      </div>
+    </div>
+  </article>
+  
+  <article class="news-timeline-group" id="november-2025">
+    <span class="news-timeline-dot" aria-hidden="true"></span>
+    <div class="news-timeline-card">
+      <div class="news-timeline-date">November 2025</div>
+      <div class="news-timeline-bullets">
+        
+        <div>Ph.D. in Computer Science conferred at the University of Toronto. Thesis: <em>Exploiting linear connectivity modulo permutations in neural networks for parsimonious machine learning</em>.</div>
+        
+      </div>
+    </div>
+  </article>
+  
+  <article class="news-timeline-group" id="september-2025">
+    <span class="news-timeline-dot" aria-hidden="true"></span>
+    <div class="news-timeline-card">
+      <div class="news-timeline-date">September 2025</div>
+      <div class="news-timeline-bullets">
+        
+        <div>Started at Google as a Machine Learning Engineer working on large-scale recommender systems for YouTube Shorts.</div>
+        
+      </div>
+    </div>
+  </article>
+  
+  <article class="news-timeline-group" id="may-2025">
+    <span class="news-timeline-dot" aria-hidden="true"></span>
+    <div class="news-timeline-card">
+      <div class="news-timeline-date">May 2025</div>
+      <div class="news-timeline-bullets">
+        
+        <div>My joint work with <a href="https://adnan1306.github.io/">Mohammed Adnan</a>, <a href="https://www.linkedin.com/in/rohanjain16/">Rohan Jain</a>, <a href="https://www.cs.toronto.edu/~rahulgk/">Rahul G. Krishnan</a>, and <a href="https://yani.ai/">Yani Ioannou</a> on <a href="https://arxiv.org/abs/2505.05143">Sparse Training from Random Initialization: Aligning Lottery Ticket Masks using Weight Symmetry</a> is accepted to <strong>ICML 2025</strong>.</div>
+        
+      </div>
+    </div>
+  </article>
+  
+  <article class="news-timeline-group" id="january-2025">
+    <span class="news-timeline-dot" aria-hidden="true"></span>
+    <div class="news-timeline-card">
+      <div class="news-timeline-date">January 2025</div>
+      <div class="news-timeline-bullets">
+        
+        <div>Entered the job market following my Ph.D. research (archived milestone — see my updated <a href="/cv/">CV</a>).</div>
+        
+      </div>
+    </div>
+  </article>
+  
+  <article class="news-timeline-group" id="december-2024">
+    <span class="news-timeline-dot" aria-hidden="true"></span>
+    <div class="news-timeline-card">
+      <div class="news-timeline-date">December 2024</div>
+      <div class="news-timeline-bullets">
+        
+        <div>My joint work with <a href="https://adnan1306.github.io/">Mohammed Adnan</a>, <a href="https://www.linkedin.com/in/rohanjain16/">Rohan Jain</a>, and <a href="https://yani.ai/">Yani Ioannou</a> on <a href="https://openreview.net/forum?id=xLiQjuoUyl#discussion">Winning Tickets from Random Initialization: Aligning Masks for Sparse Training</a> is accepted to the UniREPS workshop at NeurIPS 2024.</div>
+        
+      </div>
+    </div>
+  </article>
+  
+  <article class="news-timeline-group" id="october-2024">
+    <span class="news-timeline-dot" aria-hidden="true"></span>
+    <div class="news-timeline-card">
+      <div class="news-timeline-date">October 2024</div>
+      <div class="news-timeline-bullets">
+        
+        <div>New preprint on <a href="https://arxiv.org/abs/2410.12766">The Non-Local Model Merging Problem: Permutation Symmetries and Variance Collapse</a> is out on arXiv, with code open-sourced in <a href="https://github.com/ekanshs/tact-merge">tact-merge</a>.</div>
+        
+      </div>
+    </div>
+  </article>
+  
+  <article class="news-timeline-group" id="may-2024">
+    <span class="news-timeline-dot" aria-hidden="true"></span>
+    <div class="news-timeline-card">
+      <div class="news-timeline-date">May 2024</div>
+      <div class="news-timeline-bullets">
+        
+        <div>My joint work with <a href="https://www.devinkwok.com/">Devin Kwok</a>, <a href="https://scholar.google.com/citations?user=M1nVuUgAAAAJ&amp;hl=en">Tom Denton</a>, <a href="http://danroy.org/">Daniel M. Roy</a>, <a href="https://davidrolnick.com/">David Rolnick</a>, and <a href="https://gkdz.org/">Gintare K. Dziugaite</a> on <a href="https://link.springer.com/chapter/10.1007/978-3-031-70368-3_16">Simultaneous Linear Connectivity of Neural Networks Modulo Permutation</a> is accepted to <strong>ECML PKDD 2024</strong>.</div>
+        
+      </div>
+    </div>
+  </article>
+  
+  <article class="news-timeline-group" id="november-2023">
+    <span class="news-timeline-dot" aria-hidden="true"></span>
+    <div class="news-timeline-card">
+      <div class="news-timeline-date">November 2023</div>
+      <div class="news-timeline-bullets">
+        
+        <div>Our work on <a href="https://arxiv.org/abs/2404.06498">Simultaneous Linear Connectivity of Neural Networks Modulo Permutation</a> was accepted for a non-archival spotlight at <strong>CPAL 2024</strong>.</div>
+        
+      </div>
+    </div>
+  </article>
+  
+  <article class="news-timeline-group" id="december-2021">
+    <span class="news-timeline-dot" aria-hidden="true"></span>
+    <div class="news-timeline-card">
+      <div class="news-timeline-date">December 2021</div>
+      <div class="news-timeline-bullets">
+        
+        <div>Transitioned my primary research focus from probabilistic programming to deep learning optimization and loss-landscape geometry. Thank you, Dan, for your support!</div>
+        
+      </div>
+    </div>
+  </article>
+  
+  <article class="news-timeline-group" id="january-2021">
+    <span class="news-timeline-dot" aria-hidden="true"></span>
+    <div class="news-timeline-card">
+      <div class="news-timeline-date">January 2021</div>
+      <div class="news-timeline-bullets">
+        
+        <div>Moved to Edinburgh for a few months to intern as an Applied Scientist on the Sponsored Display team at Amazon.com under <a href="https://scholar.google.com/citations?user=IyWRhGMAAAAJ&amp;hl=en">Ben Allison</a>.</div>
+        
+      </div>
+    </div>
+  </article>
+  
+  <article class="news-timeline-group" id="december-2020">
+    <span class="news-timeline-dot" aria-hidden="true"></span>
+    <div class="news-timeline-card">
+      <div class="news-timeline-date">December 2020</div>
+      <div class="news-timeline-bullets">
+        
+        <div>My joint work with <a href="https://znaulet.pages.mia.inra.fr/">Zacharie Naulet</a>, <a href="http://danroy.org/">Daniel M. Roy</a>, and <a href="https://www.victorveitch.com/">Victor Veitch</a> on <a href="https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-15/issue-1/Bootstrap-estimators-for-the-tail-index-and-for-the-count/10.1214/20-EJS1789.full">Bootstrap estimators for the tail-index and for the count statistics of graphex processes</a> is accepted to the <em>Electronic Journal of Statistics</em>.</div>
+        
+      </div>
+    </div>
+  </article>
+  
+  <article class="news-timeline-group" id="january-2020">
+    <span class="news-timeline-dot" aria-hidden="true"></span>
+    <div class="news-timeline-card">
+      <div class="news-timeline-date">January 2020</div>
+      <div class="news-timeline-bullets">
+        
+        <div>My joint work with <a href="http://danroy.org/">Daniel M. Roy</a> on <a href="https://arxiv.org/abs/1912.06791">Approximations in Probabilistic Programs: A Compositional Nonasymptotic Analysis of Nested MCMC</a> is accepted to <strong>ProbProg 2020</strong>.</div>
+        
+      </div>
+    </div>
+  </article>
+  
+  <article class="news-timeline-group" id="december-2019">
+    <span class="news-timeline-dot" aria-hidden="true"></span>
+    <div class="news-timeline-card">
+      <div class="news-timeline-date">December 2019</div>
+      <div class="news-timeline-bullets">
+        
+        <div>Presented a poster at the <a href="https://program-transformations.github.io/">Program Transformations for ML</a> workshop at NeurIPS 2019.</div>
+        
+      </div>
+    </div>
+  </article>
+  
+  <article class="news-timeline-group" id="january-2018">
+    <span class="news-timeline-dot" aria-hidden="true"></span>
+    <div class="news-timeline-card">
+      <div class="news-timeline-date">January 2018</div>
+      <div class="news-timeline-bullets">
+        
+        <div>Transitioned from the M.Sc. program to the Ph.D. program at the University of Toronto.</div>
+        
+        <div>Gave a talk at the <a href="https://popl18.sigplan.org/track/pps-2018">Probabilistic Programming Languages, Semantics, and Systems (PPS 2018)</a> workshop at POPL 2018.</div>
+        
+      </div>
+    </div>
+  </article>
+  
 </div>
 
+  </div>
+</div>
 
-    <footer class="site-footer">
-    © Ekansh Sharma 2025<br />
+      </main>
+      <footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-meta">
+      <span>&copy; 2026 Ekansh Sharma</span>
+      <span class="footer-sep" aria-hidden="true">·</span>
+      <span>Mountain View, CA</span>
+      <span class="footer-sep" aria-hidden="true">·</span>
+      <span>Updated Nov 13, 2026</span>
+    </div>
 
-    Using <a href="http://jekyllrb.com/">Jekyll</a>
-    
-    
-    Last Updated:     <pubDate>Fri, 10 Jul 2026</pubDate>
+    <div class="footer-links">
+      <a href="#email" data-email-compose>Email</a>
+      <a href="https://scholar.google.com/citations?user=YLf2td8AAAAJ">Google Scholar</a>
+      <a href="https://github.com/ekanshs">GitHub</a>
+      <a href="/cv/cv.pdf">CV (PDF)</a>
+    </div>
+  </div>
 </footer>
 
-
-    
-
     </div>
+    <script src="/assets/js/main.js" defer></script>
   </body>
-
 </html>

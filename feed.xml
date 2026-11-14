@@ -2,12 +2,91 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ekansh Sharma</title>
-    <description>© Ekansh Sharma 2025</description>
-    <link>http://ekanshs.github.io/</link>
-    <atom:link href="http://ekanshs.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 Jul 2026 19:58:54 -0400</pubDate>
-    <lastBuildDate>Fri, 10 Jul 2026 19:58:54 -0400</lastBuildDate>
-    <generator>Jekyll v4.4.1</generator>
+    <description>Machine learning researcher and engineer specializing in large-scale sequential modeling, optimization geometry, low-precision training numerics, and statistical inference.</description>
+    <link>https://ekansharma.org/</link>
+    <atom:link href="https://ekansharma.org/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 13 Nov 2026 23:14:49 -0500</pubDate>
+    <lastBuildDate>Fri, 13 Nov 2026 23:14:49 -0500</lastBuildDate>
+    
+    
+    <item>
+      <title>June 2026 — News Update</title>
+      <description>Our preprint TokenMinds: Pretrained User Tokens and Embeddings for User Understanding in Large Recommender Systems is now available on arXiv.</description>
+      <link>https://ekansharma.org/news/#june-2026</link>
+      <guid isPermaLink="false">https://ekansharma.org/news/#june-2026</guid>
+    </item>
+    
+    
+    <item>
+      <title>May 2026 — News Update</title>
+      <description>My joint work with Mohammed Adnan, Rohan Jain, Tom Jacobs, Rahul G. Krishnan, Rebekka Burkholz, and Yani Ioannou on SparseOpt: Addressing Normalization-induced Gradient Skew in Sparse Training is accepted to ICML 2026.</description>
+      <link>https://ekansharma.org/news/#may-2026</link>
+      <guid isPermaLink="false">https://ekansharma.org/news/#may-2026</guid>
+    </item>
+    
+    
+    <item>
+      <title>November 2025 — News Update</title>
+      <description>Ph.D. in Computer Science conferred at the University of Toronto. Thesis: Exploiting linear connectivity modulo permutations in neural networks for parsimonious machine learning.</description>
+      <link>https://ekansharma.org/news/#november-2025</link>
+      <guid isPermaLink="false">https://ekansharma.org/news/#november-2025</guid>
+    </item>
+    
+    
+    <item>
+      <title>September 2025 — News Update</title>
+      <description>Started at Google as a Machine Learning Engineer working on large-scale recommender systems for YouTube Shorts.</description>
+      <link>https://ekansharma.org/news/#september-2025</link>
+      <guid isPermaLink="false">https://ekansharma.org/news/#september-2025</guid>
+    </item>
+    
+    
+    <item>
+      <title>May 2025 — News Update</title>
+      <description>My joint work with Mohammed Adnan, Rohan Jain, Rahul G. Krishnan, and Yani Ioannou on Sparse Training from Random Initialization: Aligning Lottery Ticket Masks using Weight Symmetry is accepted to ICML 2025.</description>
+      <link>https://ekansharma.org/news/#may-2025</link>
+      <guid isPermaLink="false">https://ekansharma.org/news/#may-2025</guid>
+    </item>
+    
+    
+    <item>
+      <title>January 2025 — News Update</title>
+      <description>Entered the job market following my Ph.D. research (archived milestone — see my updated CV).</description>
+      <link>https://ekansharma.org/news/#january-2025</link>
+      <guid isPermaLink="false">https://ekansharma.org/news/#january-2025</guid>
+    </item>
+    
+    
+    <item>
+      <title>December 2024 — News Update</title>
+      <description>My joint work with Mohammed Adnan, Rohan Jain, and Yani Ioannou on Winning Tickets from Random Initialization: Aligning Masks for Sparse Training is accepted to the UniREPS workshop at NeurIPS 2024.</description>
+      <link>https://ekansharma.org/news/#december-2024</link>
+      <guid isPermaLink="false">https://ekansharma.org/news/#december-2024</guid>
+    </item>
+    
+    
+    <item>
+      <title>October 2024 — News Update</title>
+      <description>New preprint on The Non-Local Model Merging Problem: Permutation Symmetries and Variance Collapse is out on arXiv, with code open-sourced in tact-merge.</description>
+      <link>https://ekansharma.org/news/#october-2024</link>
+      <guid isPermaLink="false">https://ekansharma.org/news/#october-2024</guid>
+    </item>
+    
+    
+    <item>
+      <title>May 2024 — News Update</title>
+      <description>My joint work with Devin Kwok, Tom Denton, Daniel M. Roy, David Rolnick, and Gintare K. Dziugaite on Simultaneous Linear Connectivity of Neural Networks Modulo Permutation is accepted to ECML PKDD 2024.</description>
+      <link>https://ekansharma.org/news/#may-2024</link>
+      <guid isPermaLink="false">https://ekansharma.org/news/#may-2024</guid>
+    </item>
+    
+    
+    <item>
+      <title>November 2023 — News Update</title>
+      <description>Our work on Simultaneous Linear Connectivity of Neural Networks Modulo Permutation was accepted for a non-archival spotlight at CPAL 2024.</description>
+      <link>https://ekansharma.org/news/#november-2023</link>
+      <guid isPermaLink="false">https://ekansharma.org/news/#november-2023</guid>
+    </item>
     
   </channel>
 </rss>
